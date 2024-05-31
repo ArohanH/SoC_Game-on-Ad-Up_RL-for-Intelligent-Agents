@@ -12,7 +12,7 @@ This is the official repository for the Seasons of Code Project "Game On, Ad Up:
     - Fair Coin Toss with a reward of +3 for head and -4 for tail
     - Poisson Distribution with variance in reward 2
     - Gaussian Distribution with mean reward +1 and variance 2
-    - Exponenetial Distribution with mean reward +3
+    - Exponenetial Distribution with mean reward +1
     - The last but not the least, this button chooses any of the previous options with equal probability
   #### Few Instructions
   - This task is expected to be done in Python. There are a few libraries you must be familiar with before you start coding. While the implementation aspect will be rather
