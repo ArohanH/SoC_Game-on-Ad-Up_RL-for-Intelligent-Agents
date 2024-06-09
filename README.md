@@ -27,7 +27,7 @@ This is the official repository for the Seasons of Code Project "Game On, Ad Up:
   - Feel free to use the numpy random module documentation at https://numpy.org/doc/1.16/reference/routines.random.html to generate random samples
   - Furthermore, you can find the documentation for plotting functions at https://matplotlib.org/stable/api/index
   - The submission deadline will be 23:59, 8th June 2024
-  ## Week2 
+  ## Week 2 
   ### Assignment
   Reinforcement Learning with Bellman Equations in a Grid World
 
