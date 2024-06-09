@@ -57,10 +57,10 @@ This is the official repository for the Seasons of Code Project "Game On, Ad Up:
   ##### Tasks:
       
   ###### Task 1: Environment Setup:
-        Create a 4×4 grid world environment.
-        Place reward pots at specified positions.
-        Define rewards for reaching each pot.
-        Define transition dynamics (deterministic)
+  - Create a 4×4 grid world environment.
+  - Place reward pots at specified positions.
+  - Define rewards for reaching each pot.
+  - Define transition dynamics (deterministic)
       
       
   ###### Task 2: Value Function Computation:
@@ -102,6 +102,7 @@ This is the official repository for the Seasons of Code Project "Game On, Ad Up:
         - 0 represents empty cells.
 
   By the end of this assignment, you will have a solid understanding of how to use the Bellman equations to solve reinforcement learning problems in grid-based    environments!
+  The submission deadline will be 23:59, 16th June 2024
   ## Mentors
     - Siddhartha Rajeev (7619527676)
     - Arohan Hazarika (9678969740)
