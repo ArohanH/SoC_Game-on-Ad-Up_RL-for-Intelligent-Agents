@@ -27,7 +27,81 @@ This is the official repository for the Seasons of Code Project "Game On, Ad Up:
   - Feel free to use the numpy random module documentation at https://numpy.org/doc/1.16/reference/routines.random.html to generate random samples
   - Furthermore, you can find the documentation for plotting functions at https://matplotlib.org/stable/api/index
   - The submission deadline will be 23:59, 8th June 2024
+  ## Week2 
+  ### Assignment
+  Reinforcement Learning with Bellman Equations in a Grid World
+
+  #### Objective:
+      To understand and implement concepts such as the Bellman equations, value functions, and action-value functions in a grid-based environment. Use these concepts to solve a 4×4 grid world problem where the objective is to maximize cumulative rewards collected from various reward pots.
       
+  #### Background:
+      In this assignment, you'll be working on a 4×4 grid world environment. The grid world contains reward pots placed at different locations, each offering a specific reward. The agent's goal is to navigate the grid world, starting from a given position and maximize the total reward by collecting from these pots. The agent can move in four directions: up, down, left, and right, unless blocked by the grid boundary walls.
+      
+  #### Concepts Covered:
+        - Bellman Equations: Fundamental equations in dynamic programming for finding the optimal policy.
+        - Value Functions: Measures the expected cumulative reward from each state.
+        - Action-Value Functions: Measures the expected cumulative reward from each state-action pair.
+      
+  #### Assignment Details:
+      
+  ##### Grid World Setup:
+      The grid is a 4×4 matrix.
+      Each cell in the grid can contain a reward pot, be empty, or be a starting point.
+      The reward values are provided in a separate configuration file or as a 2D array.
+      
+      
+  ##### Objective:
+      
+      Implement policy improvement and policy evaluation to determine the optimal policy for navigating the grid world. Use Bellman equations to update the value function.
+      
+  ##### Tasks:
+      
+  ###### Task 1: Environment Setup:
+        Create a 4×4 grid world environment.
+        Place reward pots at specified positions.
+        Define rewards for reaching each pot.
+        Define transition dynamics (deterministic)
+      
+      
+  ###### Task 2: Value Function Computation:
+      Initialize the value function for the states.
+      Implement the Bellman equation for value functions.
+      Perform policy iteration (evaluation + improvement) to update the value function and policy until convergence.
+      
+  ###### Task 3: Optimal Policy:
+      Display the optimal policy for navigating the grid as computed through policy iteration.
+      
+  ###### Task 4: Testing and Visualization:
+      
+      Test the implementation by running the agent in the grid world.
+      Visualize the optimal policy and the path taken by the agent to collect rewards.
+      
+  ##### Constraints:
+      
+      The agent cannot move outside the grid. Transitions are deterministic
+       
+  ##### Things we're looking for:
+      
+        - Correctness: Proper implementation of the Bellman equations, value functions in policy (improvement+evaluation)
+        - Efficiency: Optimized code that converges reasonably quickly.
+        - Documentation: Clear explanation of the code and methodology through comments
+        - Visualization: Accurate and informative visualization of the grid world and policy.
+        - Creativity: Any additional features or improvements (optional - just have fun with it)
+      
+  ##### Sample Grid Configuration:
+      
+      [
+        [0,  0,  0,  10],
+        [0, -1,  0,   0],
+        [0,  0,  0,   0],
+        [1,  0,  0,   5]
+      ]
+      
+        - 10 and 5 are reward pots.
+        - -1 is a penalty or obstacle.
+        - 0 represents empty cells.
+
+      By the end of this assignment, you will have a solid understanding of how to use the Bellman equations to solve reinforcement learning problems in grid-based    environments!
   ## Mentors
     - Siddhartha Rajeev (7619527676)
     - Arohan Hazarika (9678969740)
