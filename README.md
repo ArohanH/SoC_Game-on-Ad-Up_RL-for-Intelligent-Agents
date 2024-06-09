@@ -32,10 +32,10 @@ This is the official repository for the Seasons of Code Project "Game On, Ad Up:
   Reinforcement Learning with Bellman Equations in a Grid World
 
   #### Objective:
-      To understand and implement concepts such as the Bellman equations, value functions, and action-value functions in a grid-based environment. Use these concepts to solve a 4×4 grid world problem where the objective is to maximize cumulative rewards collected from various reward pots.
+  To understand and implement concepts such as the Bellman equations, value functions, and action-value functions in a grid-based environment. Use these concepts to solve a 4×4 grid world problem where the objective is to maximize cumulative rewards collected from various reward pots.
       
   #### Background:
-      In this assignment, you'll be working on a 4×4 grid world environment. The grid world contains reward pots placed at different locations, each offering a specific reward. The agent's goal is to navigate the grid world, starting from a given position and maximize the total reward by collecting from these pots. The agent can move in four directions: up, down, left, and right, unless blocked by the grid boundary walls.
+  In this assignment, you'll be working on a 4×4 grid world environment. The grid world contains reward pots placed at different locations, each offering a specific reward. The agent's goal is to navigate the grid world, starting from a given position and maximize the total reward by collecting from these pots. The agent can move in four directions: up, down, left, and right, unless blocked by the grid boundary walls.
       
   #### Concepts Covered:
         - Bellman Equations: Fundamental equations in dynamic programming for finding the optimal policy.
@@ -52,7 +52,7 @@ This is the official repository for the Seasons of Code Project "Game On, Ad Up:
       
   ##### Objective:
       
-      Implement policy improvement and policy evaluation to determine the optimal policy for navigating the grid world. Use Bellman equations to update the value function.
+  Implement policy improvement and policy evaluation to determine the optimal policy for navigating the grid world. Use Bellman equations to update the value function.
       
   ##### Tasks:
       
@@ -64,21 +64,21 @@ This is the official repository for the Seasons of Code Project "Game On, Ad Up:
       
       
   ###### Task 2: Value Function Computation:
-      Initialize the value function for the states.
-      Implement the Bellman equation for value functions.
-      Perform policy iteration (evaluation + improvement) to update the value function and policy until convergence.
+  - Initialize the value function for the states.
+  - Implement the Bellman equation for value functions.
+  - Perform policy iteration (evaluation + improvement) to update the value function and policy until convergence.
       
   ###### Task 3: Optimal Policy:
-      Display the optimal policy for navigating the grid as computed through policy iteration.
+  Display the optimal policy for navigating the grid as computed through policy iteration.
       
   ###### Task 4: Testing and Visualization:
       
-      Test the implementation by running the agent in the grid world.
-      Visualize the optimal policy and the path taken by the agent to collect rewards.
+  - Test the implementation by running the agent in the grid world.
+  - Visualize the optimal policy and the path taken by the agent to collect rewards.
       
   ##### Constraints:
       
-      The agent cannot move outside the grid. Transitions are deterministic
+  The agent cannot move outside the grid. Transitions are deterministic
        
   ##### Things we're looking for:
       
@@ -101,7 +101,7 @@ This is the official repository for the Seasons of Code Project "Game On, Ad Up:
         - -1 is a penalty or obstacle.
         - 0 represents empty cells.
 
-      By the end of this assignment, you will have a solid understanding of how to use the Bellman equations to solve reinforcement learning problems in grid-based    environments!
+  By the end of this assignment, you will have a solid understanding of how to use the Bellman equations to solve reinforcement learning problems in grid-based    environments!
   ## Mentors
     - Siddhartha Rajeev (7619527676)
     - Arohan Hazarika (9678969740)
