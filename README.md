@@ -111,8 +111,8 @@ This is the official repository for the Seasons of Code Project "Game On, Ad Up:
   - Build a Monte Carlo algorithm and a Q-Learning algorithm to attempt to solve this game. Play around with the parameters and try to find the parameters which help you   come up with faster converging algorithms. Make a plot which shows the Monte Carlo cumulative reward and the Q Learning cumulative reward for each episode, for 3000 episodes.
   - Please follow the documentation for information related to rewards, state and action spaces: https://gymnasium.farama.org/environments/toy_text/taxi/
   #### Few Instructions:
-  - Kindly go through Lectures 4 and 5 of David Silver's Playlist to cover the theory part for Reinforcement Learning Algorithms 
-  - Submission Deadline will be 23:59, 30th June
+  - Kindly go through Lectures 4 and 5 of David Silver's playlist to cover the theory part for Reinforcement Learning Algorithms 
+  - Submission Deadline will be 23:59, 30th June, 2024
   ## Mentors
     - Siddhartha Rajeev (7619527676)
     - Arohan Hazarika (9678969740)
