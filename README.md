@@ -103,6 +103,16 @@ This is the official repository for the Seasons of Code Project "Game On, Ad Up:
 
   By the end of this assignment, you will have a solid understanding of how to use the Bellman equations to solve reinforcement learning problems in grid-based    environments!
   The submission deadline will be 23:59, 16th June 2024
+  ## Week 3
+  ### Assignment
+  - This week's assignment is based on RL algorithms like Monte-Carlo and Q Learning, you have to apply them on Open AI Gym's "Taxi" Environment.
+  - The goal is to move the taxi to the passenger’s location, pick up the passenger, move to the passenger’s desired destination, and drop off the passenger. Once the     passenger is dropped off, the episode ends.
+  - This game is simple because both the action and observation spaces are discrete. 
+  - Build a Monte Carlo algorithm and a Q-Learning algorithm to attempt to solve this game. Play around with the parameters and try to find the parameters which help you   come up with faster converging algorithms. Make a plot which shows the Monte Carlo cumulative reward and the Q Learning cumulative reward for each episode, for 3000 episodes.
+  - Please follow the documentation for information related to rewards, state and action spaces: https://gymnasium.farama.org/environments/toy_text/taxi/
+  #### Few Instructions:
+  - Kindly go through Lectures 4 and 5 of David Silver's Playlist to cover the theory part for Reinforcement Learning Algorithms 
+  - Submission Deadline will be 23:59, 30th June
   ## Mentors
     - Siddhartha Rajeev (7619527676)
     - Arohan Hazarika (9678969740)
