@@ -110,6 +110,40 @@ This is the official repository for the Seasons of Code Project "Game On, Ad Up:
   - This game is simple because both the action and observation spaces are discrete. 
   - Build a Monte Carlo algorithm and a Q-Learning algorithm to attempt to solve this game. Play around with the parameters and try to find the parameters which help you   come up with faster converging algorithms. Make a plot which shows the Monte Carlo cumulative reward and the Q Learning cumulative reward for each episode, for 3000 episodes.
   - Please follow the documentation for information related to rewards, state and action spaces: https://gymnasium.farama.org/environments/toy_text/taxi/
+## Week 4
+  ### Assignment
+  #### Problem Statement: MNIST Digit Recognition Using Convolutional Neural Networks in TensorFlow
+  
+  #### Overview:
+  The MNIST (Modified National Institute of Standards and Technology) dataset is a widely-used benchmark for evaluating machine learning algorithms, particularly in the field of image classification. It consists of 70,000 grayscale images of handwritten digits from 0 to 9, with each image being 28x28 pixels in size. The goal is to correctly identify the digit represented in each image.
+  
+  #### Objective:
+  Develop a robust and efficient convolutional neural network (CNN) using TensorFlow to accurately classify the handwritten digits in the MNIST dataset. The model should be able to generalize well to unseen data, achieving high accuracy on both training and test sets.
+  
+  #### Requirements:
+  ###### 1. Data Preprocessing: 
+  - Normalize the pixel values to a range of 0 to 1.
+  - Convert the labels to one-hot encoded vectors.
+  
+  ###### 2. Model Architecture:
+  - Design a CNN architecture that effectively captures spatial hierarchies in the images.
+  - Experiment with different numbers of convolutional layers, filter sizes, activation functions, and pooling layers to find the optimal architecture.
+  
+  ###### 3. Training Process:
+  - Implement the model training using TensorFlow.
+  - Choose appropriate optimization algorithms (e.g., Adam) and loss functions (e.g., categorical cross-entropy).
+  
+  ###### 4. Evaluation Metrics:
+  - Assess the model's performance using accuracy as the primary metric.
+  - Additionally, calculate confusion matrices and classification reports to evaluate the performance across different digit classes.
+  
+  ###### 5. Hyperparameter Tuning:
+  - Perform hyperparameter tuning to optimize the model's parameters, such as learning rate, batch size, and number of epochs.
+  
+  ###### 6. Visualization:
+  - Provide visualizations of training and validation accuracy/loss over epochs.
+
+  You can learn about neural networks and convolutions on any YouTube channel of your choosing because it is a very ubiquitous subject available easily!
   #### Few Instructions:
   - Kindly go through Lectures 4 and 5 of David Silver's playlist to cover the theory part for Reinforcement Learning Algorithms 
   - Submission Deadline will be 23:59, 30th June, 2024
