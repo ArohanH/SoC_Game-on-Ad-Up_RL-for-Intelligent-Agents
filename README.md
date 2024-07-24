@@ -144,7 +144,7 @@ This is the official repository for the Seasons of Code Project "Game On, Ad Up:
   - Provide visualizations of training and validation accuracy/loss over epochs.
 
   You can learn about neural networks and convolutions on any YouTube channel of your choosing because it is a very ubiquitous subject available easily!
-  ## Week 4
+  ## Week 5
   ### Assignment
   #### Problem Statement: Playing Atari Games with Deep Reinforcement Learning
   
