@@ -144,6 +144,13 @@ This is the official repository for the Seasons of Code Project "Game On, Ad Up:
   - Provide visualizations of training and validation accuracy/loss over epochs.
 
   You can learn about neural networks and convolutions on any YouTube channel of your choosing because it is a very ubiquitous subject available easily!
+  ## Week 4
+  ### Assignment
+  #### Problem Statement: Playing Atari Games with Deep Reinforcement Learning
+  
+  #### Overview:
+  This is the last assignment so there won't be too many hints! Pick your favourite Atari game from [here](https://www.gymlibrary.dev/environments/atari/index.html) and using the example of Andrej Karpathy's [blog](https://karpathy.github.io/2016/05/31/rl/) create a neural network to play the Atari game from pixels!
+  
   #### Few Instructions:
   - Kindly go through Lectures 4 and 5 of David Silver's playlist to cover the theory part for Reinforcement Learning Algorithms 
   - Submission Deadline will be 23:59, 30th June, 2024
